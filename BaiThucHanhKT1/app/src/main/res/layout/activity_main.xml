@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#4BD9CEEF"
+    tools:context=".MainActivity">
+
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="260dp"
+        android:layout_height="75dp"
+        android:layout_marginStart="66dp"
+        android:layout_marginLeft="66dp"
+        android:layout_marginTop="44dp"
+        android:layout_marginEnd="85dp"
+        android:layout_marginRight="85dp"
+        android:text="LOGIN PAGE"
+        android:textSize="25dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="132dp"
+        android:layout_height="51dp"
+        android:layout_marginStart="54dp"
+        android:layout_marginLeft="54dp"
+        android:layout_marginTop="56dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginRight="24dp"
+        android:paddingTop="7dp"
+        android:text="User Name :"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toStartOf="@+id/edtTenDN"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="132dp"
+        android:layout_height="51dp"
+        android:layout_marginStart="54dp"
+        android:layout_marginLeft="54dp"
+        android:layout_marginTop="27dp"
+        android:layout_marginEnd="23dp"
+        android:layout_marginRight="23dp"
+        android:paddingTop="10dp"
+        android:text="Password :"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toStartOf="@+id/edtMK"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+    <EditText
+        android:id="@+id/edtTenDN"
+        android:layout_width="163dp"
+        android:layout_height="51dp"
+        android:layout_marginTop="56dp"
+        android:layout_marginEnd="58dp"
+        android:layout_marginRight="58dp"
+        android:ems="10"
+        android:inputType="text"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <EditText
+        android:id="@+id/edtMK"
+        android:layout_width="163dp"
+        android:layout_height="51dp"
+        android:layout_marginTop="22dp"
+        android:layout_marginEnd="62dp"
+        android:layout_marginRight="62dp"
+        android:ems="10"
+        android:inputType="text"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edtTenDN" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="133dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="54dp"
+        android:layout_marginLeft="54dp"
+        android:layout_marginTop="48dp"
+        android:layout_marginEnd="11dp"
+        android:layout_marginRight="11dp"
+        android:paddingTop="18dp"
+        android:text="Attempts :"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toStartOf="@+id/tvAtt"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView3" />
+
+    <Button
+        android:id="@+id/btnLogin"
+        android:layout_width="116dp"
+        android:layout_height="64dp"
+        android:layout_marginStart="54dp"
+        android:layout_marginLeft="54dp"
+        android:layout_marginTop="36dp"
+        android:layout_marginEnd="241dp"
+        android:layout_marginRight="241dp"
+        android:onClick="Login"
+        android:text="LOGIN"
+        android:textSize="22dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView4" />
+
+    <TextView
+        android:id="@+id/tvAtt"
+        android:layout_width="94dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="53dp"
+        android:layout_marginEnd="119dp"
+        android:layout_marginRight="119dp"
+        android:paddingLeft="10dp"
+        android:paddingTop="18dp"
+        android:text="0"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edtMK" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
