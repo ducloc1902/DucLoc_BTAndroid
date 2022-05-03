@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">QuizApp</string>
+    <string name="true_text">true text</string>
+    <string name="false_text">false_text</string>
+    <string name="question_declaration">the study of plants is kown as botany. </string>
+    <string name="question_body"
+</resources>
