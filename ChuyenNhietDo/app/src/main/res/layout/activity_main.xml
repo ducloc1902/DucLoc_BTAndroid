@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/tv_doF"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Fahrenheit"
+        android:textSize="30dp">
+
+    </TextView>
+    <EditText
+        android:id="@+id/ed_doF"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+    </EditText>
+    <TextView
+        android:id="@+id/tv_doC"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="do C"
+        android:textSize="30dp"
+        >
+    </TextView>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ed_doC"
+        >
+    </EditText>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_width="206dp"
+            android:layout_height="wrap_content"
+            android:text="chuyen C sang F">
+
+        </Button>
+
+        <Button
+            android:layout_width="206dp"
+            android:layout_height="wrap_content"
+            android:text="do F sang do C">
+
+        </Button>
+    </LinearLayout>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="submit">
+
+    </Button>
+
+
+</LinearLayout>
