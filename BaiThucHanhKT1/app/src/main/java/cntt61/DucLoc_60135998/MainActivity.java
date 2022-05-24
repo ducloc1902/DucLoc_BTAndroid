@@ -29,7 +29,7 @@ public class MainActivity extends AppCompatActivity {
 
         //-------------------------
 
-        if (user.equals("NgocDung")&&(pass.equals("0806"))){
+        if (user.equals("DucLoc")&&(pass.equals("1902"))){
             Toast.makeText(MainActivity.this,"User and Password is correct",10).show();
         }
         else {

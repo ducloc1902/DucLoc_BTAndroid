@@ -7,8 +7,6 @@
     android:background="#4BD9CEEF"
     tools:context=".MainActivity">
 
-
-
     <TextView
         android:id="@+id/textView"
         android:layout_width="260dp"

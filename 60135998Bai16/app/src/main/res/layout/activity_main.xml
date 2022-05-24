@@ -14,7 +14,8 @@
         android:background="@color/purple_700"
         android:textAlignment="viewStart"
         android:textColor="@color/black"
-        android:textSize="16sp" />
+        android:textSize="16sp"
+        android:text="Bai 16"/>
 
     <ListView
         android:id="@+id/LV"
