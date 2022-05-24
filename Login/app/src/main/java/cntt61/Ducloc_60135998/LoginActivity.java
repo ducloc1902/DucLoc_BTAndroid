@@ -38,7 +38,7 @@ public class LoginActivity extends AppCompatActivity {
 
             //-------------------------
 
-            if (user.equals("NgocDung")&&pass.equals("1510k")){
+            if (user.equals("DucLoc")&&pass.equals("1902")){
                 Intent iQuiz = new Intent(LoginActivity.this,HomeActivity.class);
                 iQuiz.putExtra("Tennguoidung",user);
                 iQuiz.putExtra("matkhaunguoidung", pass);
